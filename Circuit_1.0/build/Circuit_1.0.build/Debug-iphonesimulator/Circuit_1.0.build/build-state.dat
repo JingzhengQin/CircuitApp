@@ -1,0 +1,487 @@
+TCircuit_1.0
+v7
+r0
+t322083880.560723
+cCheck dependencies
+cProcessInfoPlistFile /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Info.plist Circuit_1_0-Info.plist
+cCompileXIB /Users/Wilson/Documents/Circuit_1.0/MainWindow.xib
+cCompileXIB /Users/Wilson/Documents/Circuit_1.0/Circuit_1_0ViewController.xib
+cCpResource build/Debug-iphonesimulator/Circuit_1.0.app/resistance.jpg resistance.jpg
+cCpResource build/Debug-iphonesimulator/Circuit_1.0.app/resistances.jpg resistances.jpg
+cCpResource build/Debug-iphonesimulator/Circuit_1.0.app/resistance.png resistance.png
+cProcessPCH /var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch.gch Circuit_1_0_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/main.o /Users/Wilson/Documents/Circuit_1.0/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0AppDelegate.o /Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0ViewController.o /Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Drawline.o /Users/Wilson/Documents/Circuit_1.0/Classes/Drawline.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0 normal i386
+cGenerateDSYMFile /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app.dSYM /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0
+cTouch /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D78FEA00000000000000110
+t1299775136
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Wilson/Documents/Circuit_1.0/../checked.png
+c000000004C21249D0000000000000542
+t1277240477
+s1346
+
+N/Users/Wilson/Documents/Circuit_1.0/../im.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Wilson/Documents/Circuit_1.0/../imed.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Wilson/Documents/Circuit_1.0/../unchecked.png
+c000000004C21249D0000000000000434
+t1277240477
+s1076
+
+N/Users/Wilson/Documents/Circuit_1.0/Circuit_1_0ViewController.xib
+c000000004D7A8DB10000000000003EF1
+t1299877297
+s16113
+
+N/Users/Wilson/Documents/Circuit_1.0/Circuit_1_0_Prefix.pch
+c000000004D7A8DB100000000000000BF
+t1299877297
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0AppDelegate.h
+c000000004D7A8DB10000000000000201
+t1299877297
+s513
+i<UIKit/UIKit.h>
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0AppDelegate.m
+c000000004D7A8DB100000000000007D2
+t1299877297
+s2002
+i"Circuit_1_0AppDelegate.h"
+i"Circuit_1_0ViewController.h"
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0ViewController.h
+c000000004D8254FB0000000000000375
+t1300387067
+s885
+i<UIKit/UIKit.h>
+i"Drawline.h"
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0ViewController.m
+c000000004D8255100000000000001F85
+t1300387088
+s8069
+i"Circuit_1_0ViewController.h"
+i"Drawline.h"
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/Drawline.h
+c000000004D8254FB0000000000000224
+t1300387067
+s548
+i<UIKit/UIKit.h>
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/Drawline.m
+c000000004D8264A80000000000000900
+t1300391080
+s2304
+i"Drawline.h"
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/drawline.h
+c000000004D7FD7A900000000000000D8
+t1300223913
+s216
+i<UIKit/UIKit.h>
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/drawline.m
+c000000004D7FD7A90000000000000256
+t1300223913
+s598
+i"drawline.h"
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/myview.h
+c000000004D7FC5B70000000000000128
+t1300219319
+s296
+i<UIKit/UIKit.h>
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/myview.m
+c000000004D7FC6770000000000000798
+t1300219511
+s1944
+i"myview.h"
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/touchView.h
+c000000004D65C7840000000000000102
+t1298515844
+s258
+i<UIKit/UIKit.h>
+
+N/Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m
+c000000004D65C78C0000000000000AC9
+t1298515852
+s2761
+i"touchView.h"
+
+N/Users/Wilson/Documents/Circuit_1.0/MainWindow.xib
+c000000004D7A8DB10000000000004D31
+t1299877297
+s19761
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1.0.LinkFileList
+c000000004D8245A30000000000000227
+t1300383139
+s551
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0AppDelegate.o
+t1300387067
+s50676
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0ViewController.o
+t1300387088
+s60488
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Drawline.o
+t1300391080
+s42248
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/drawline.o
+t2
+s0
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/main.o
+t1299877319
+s6296
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/myview.o
+t2
+s0
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/touchView.o
+t1300382895
+s48000
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app
+t1300391080
+s340
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app.dSYM
+t1300391080
+s102
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0
+t1300391080
+s30692
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1_0ViewController.nib
+t1299877318
+s764
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Info.plist
+t1299877318
+s814
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/MainWindow.nib
+t1299877318
+s1131
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/PkgInfo
+t1299877318
+s8
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/checked.png
+t2
+s0
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/im.png
+t2
+s0
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/imed.png
+t2
+s0
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/resistance.jpg
+t1300286260
+s49032
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/resistance.png
+t1300286447
+s15689
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/resistances.jpg
+t1300286260
+s37955
+
+N/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/unchecked.png
+t2
+s0
+
+N/Users/Wilson/Documents/Circuit_1.0/main.m
+c000000004D7A8DB10000000000000177
+t1299877297
+s375
+i<UIKit/UIKit.h>
+
+N/Users/Wilson/Documents/Circuit_1.0/resistance.jpg
+c000000004D80CA64000000000000BF88
+t1300286052
+s49032
+
+N/Users/Wilson/Documents/Circuit_1.0/resistance.png
+c000000004D80CBB40000000000003D49
+t1300286388
+s15689
+
+N/Users/Wilson/Documents/Circuit_1.0/resistances.jpg
+c000000004D80CA8B0000000000009443
+t1300286091
+s37955
+
+N/var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch.gch
+t1299877319
+s10360536
+
+NCircuit_1_0-Info.plist
+c000000004D7A8DB100000000000004D6
+t1299877297
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322083880#322083880#0(0"0(0#1#0"2450354832#0"0#
+
+CCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0AppDelegate.o /Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322079867.425406
+e322079867.624392
+r1
+xCompileC
+xbuild/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0AppDelegate.o
+x/Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0AppDelegate.m322079867#322079867#0(0"0(0#0#68"/Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0AppDelegate.m2450354832#2005"    cd /Users/Wilson/Documents/Circuit_1.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-generated-files.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-own-target-headers.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-all-target-headers.hmap -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-project-headers.hmap -F/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator -I/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/include -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources/i386 -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources -include /var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch -c /Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0AppDelegate.m -o /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0AppDelegate.o0#
+
+CCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0ViewController.o /Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322079888.577780
+e322079888.876565
+r1
+xCompileC
+xbuild/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0ViewController.o
+x/Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0ViewController.m322079888#322079888#0(0"0(0#0#71"/Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0ViewController.m2450354832#2011"    cd /Users/Wilson/Documents/Circuit_1.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-generated-files.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-own-target-headers.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-all-target-headers.hmap -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-project-headers.hmap -F/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator -I/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/include -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources/i386 -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources -include /var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch -c /Users/Wilson/Documents/Circuit_1.0/Classes/Circuit_1_0ViewController.m -o /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1_0ViewController.o0#
+
+CCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Drawline.o /Users/Wilson/Documents/Circuit_1.0/Classes/Drawline.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322083880.271879
+e322083880.489428
+r1
+xCompileC
+xbuild/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Drawline.o
+x/Users/Wilson/Documents/Circuit_1.0/Classes/Drawline.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Wilson/Documents/Circuit_1.0/Classes/Drawline.m322083880#322083880#0(0"0(0#0#54"/Users/Wilson/Documents/Circuit_1.0/Classes/Drawline.m2450354832#1977"    cd /Users/Wilson/Documents/Circuit_1.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-generated-files.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-own-target-headers.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-all-target-headers.hmap -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-project-headers.hmap -F/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator -I/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/include -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources/i386 -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources -include /var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch -c /Users/Wilson/Documents/Circuit_1.0/Classes/Drawline.m -o /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Drawline.o0#
+
+CCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/drawline.o /Users/Wilson/Documents/Circuit_1.0/Classes/drawline.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/main.o /Users/Wilson/Documents/Circuit_1.0/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321570119.642612
+e321570119.828889
+r1
+xCompileC
+xbuild/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/main.o
+x/Users/Wilson/Documents/Circuit_1.0/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/Wilson/Documents/Circuit_1.0/main.m321570119#321570119#0(0"0(0#0#42"/Users/Wilson/Documents/Circuit_1.0/main.m2564670096#1961"    cd /Users/Wilson/Documents/Circuit_1.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-generated-files.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-own-target-headers.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-all-target-headers.hmap -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-project-headers.hmap -F/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator -I/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/include -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources/i386 -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources -include /var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch -c /Users/Wilson/Documents/Circuit_1.0/main.m -o /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/myview.o /Users/Wilson/Documents/Circuit_1.0/Classes/myview.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321912311.806369
+e321912312.065594
+r0
+xCompileC
+xbuild/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/myview.o
+x/Users/Wilson/Documents/Circuit_1.0/Classes/myview.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Wilson/Documents/Circuit_1.0/Classes/myview.m:21: error: cannot find interface declaration for 'RoundView'
+lSLF07#2@60"Compile /Users/Wilson/Documents/Circuit_1.0/Classes/myview.m321912311#321912312#0(114"/Users/Wilson/Documents/Circuit_1.0/Classes/myview.m:21: error: cannot find interface declaration for 'RoundView'1(4@49"Cannot find interface declaration for 'RoundView'321912312#0#114#0(6@52"/Users/Wilson/Documents/Circuit_1.0/Classes/myview.m321912311#21#0#21#0#0"0(0#0#52"/Users/Wilson/Documents/Circuit_1.0/Classes/myview.m2564670096#1973"    cd /Users/Wilson/Documents/Circuit_1.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-generated-files.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-own-target-headers.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-all-target-headers.hmap -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-project-headers.hmap -F/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator -I/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/include -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources/i386 -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources -include /var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch -c /Users/Wilson/Documents/Circuit_1.0/Classes/myview.m -o /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/myview.o1#
+
+CCompileC build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/touchView.o /Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322075695.266439
+e322075695.371621
+r1
+xCompileC
+xbuild/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/touchView.o
+x/Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m: In function '-[touchView touchesBegan:withEvent:]':
+o/Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m:96: warning: format not a string literal and no format arguments
+lSLF07#2@63"Compile /Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m322075695#322075695#0(230"/Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m: In function '-[touchView touchesBegan:withEvent:]':/Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m:96: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments322075695#109#121#0(6@55"/Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m320208652#96#0#96#0#51"format not a string literal and no format arguments0(0#0#55"/Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m2450354832#1979"    cd /Users/Wilson/Documents/Circuit_1.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-generated-files.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-own-target-headers.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-all-target-headers.hmap -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-project-headers.hmap -F/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator -I/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/include -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources/i386 -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources -include /var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch -c /Users/Wilson/Documents/Circuit_1.0/Classes/touchView.m -o /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/touchView.o0#
+
+CCompileXIB /Users/Wilson/Documents/Circuit_1.0/Circuit_1_0ViewController.xib
+s321570118.168027
+e321570118.713063
+r1
+xCompileXIB
+x/Users/Wilson/Documents/Circuit_1.0/Circuit_1_0ViewController.xib
+lSLF07#2@40"CompileXIB Circuit_1_0ViewController.xib321570118#321570118#0(0"0(0#0#65"/Users/Wilson/Documents/Circuit_1.0/Circuit_1_0ViewController.xib2564670096#595"    cd /Users/Wilson/Documents/Circuit_1.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1_0ViewController.nib /Users/Wilson/Documents/Circuit_1.0/Circuit_1_0ViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Wilson/Documents/Circuit_1.0/MainWindow.xib
+s321570118.166963
+e321570118.769645
+r1
+xCompileXIB
+x/Users/Wilson/Documents/Circuit_1.0/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321570118#321570118#0(0"0(0#0#50"/Users/Wilson/Documents/Circuit_1.0/MainWindow.xib2564670096#565"    cd /Users/Wilson/Documents/Circuit_1.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/MainWindow.nib /Users/Wilson/Documents/Circuit_1.0/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Circuit_1.0.app/checked.png ../checked.png
+r0
+
+CCpResource build/Debug-iphonesimulator/Circuit_1.0.app/im.png ../im.png
+s321987704.138764
+e321987704.161377
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Circuit_1.0.app/im.png
+x../im.png
+opbxcp: im.png: No such file or directory
+lSLF07#2@14"Copy ../im.png321987704#321987704#0(41"pbxcp: im.png: No such file or directory1(4@40"pbxcp: im.png: No such file or directory321987704#4294967295#0#0(6@0"321987704#0#0#0#0#0"0(0#0#45"/Users/Wilson/Documents/Circuit_1.0/../im.png2564670096#462"    cd /Users/Wilson/Documents/Circuit_1.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wilson/Documents/Circuit_1.0/../im.png /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app1#
+
+CCpResource build/Debug-iphonesimulator/Circuit_1.0.app/imed.png ../imed.png
+s321987704.139868
+e321987704.152977
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Circuit_1.0.app/imed.png
+x../imed.png
+opbxcp: imed.png: No such file or directory
+lSLF07#2@16"Copy ../imed.png321987704#321987704#0(43"pbxcp: imed.png: No such file or directory1(4@42"pbxcp: imed.png: No such file or directory321987704#4294967295#0#0(6@0"321987704#0#0#0#0#0"0(0#0#47"/Users/Wilson/Documents/Circuit_1.0/../imed.png2564670096#464"    cd /Users/Wilson/Documents/Circuit_1.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wilson/Documents/Circuit_1.0/../imed.png /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app1#
+
+CCpResource build/Debug-iphonesimulator/Circuit_1.0.app/resistance.jpg resistance.jpg
+s321979059.965729
+e321979060.133821
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Circuit_1.0.app/resistance.jpg
+xresistance.jpg
+lSLF07#2@19"Copy resistance.jpg321979059#321979060#0(0"0(0#0#50"/Users/Wilson/Documents/Circuit_1.0/resistance.jpg2564670096#467"    cd /Users/Wilson/Documents/Circuit_1.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wilson/Documents/Circuit_1.0/resistance.jpg /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app0#
+
+CCpResource build/Debug-iphonesimulator/Circuit_1.0.app/resistance.png resistance.png
+s321979247.044356
+e321979247.062575
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Circuit_1.0.app/resistance.png
+xresistance.png
+lSLF07#2@19"Copy resistance.png321979247#321979247#0(0"0(0#0#50"/Users/Wilson/Documents/Circuit_1.0/resistance.png2564670096#467"    cd /Users/Wilson/Documents/Circuit_1.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wilson/Documents/Circuit_1.0/resistance.png /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app0#
+
+CCpResource build/Debug-iphonesimulator/Circuit_1.0.app/resistances.jpg resistances.jpg
+s321979059.972276
+e321979060.134028
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Circuit_1.0.app/resistances.jpg
+xresistances.jpg
+lSLF07#2@20"Copy resistances.jpg321979059#321979060#0(0"0(0#0#51"/Users/Wilson/Documents/Circuit_1.0/resistances.jpg2564670096#468"    cd /Users/Wilson/Documents/Circuit_1.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Wilson/Documents/Circuit_1.0/resistances.jpg /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app0#
+
+CCpResource build/Debug-iphonesimulator/Circuit_1.0.app/unchecked.png ../unchecked.png
+r0
+
+CGenerateDSYMFile /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app.dSYM /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0
+s322083880.528793
+e322083880.556607
+r1
+xGenerateDSYMFile
+x/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app.dSYM
+x/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/Circuit_1.0.app.dSYM build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0322083880#322083880#0(0"0(0#0#91"/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.02450354832#386"    cd /Users/Wilson/Documents/Circuit_1.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0 -o /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app.dSYM0#
+
+CLd /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0 normal i386
+s322083880.489543
+e322083880.528648
+r1
+xLd
+x/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0
+xnormal
+xi386
+lSLF07#2@96"Link /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.0322083880#322083880#0(0"0(0#0#0"2450354832#905"    cd /Users/Wilson/Documents/Circuit_1.0    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator -F/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator -filelist /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Objects-normal/i386/Circuit_1.0.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Circuit_1.00#
+
+CProcessInfoPlistFile /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Info.plist Circuit_1_0-Info.plist
+s321570118.159385
+e321570118.166844
+r1
+xProcessInfoPlistFile
+x/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Info.plist
+xCircuit_1_0-Info.plist
+lSLF07#2@30"Process Circuit_1_0-Info.plist321570118#321570118#0(0"0(0#0#58"/Users/Wilson/Documents/Circuit_1.0/Circuit_1_0-Info.plist2564670096#482"    cd /Users/Wilson/Documents/Circuit_1.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Circuit_1_0-Info.plist -genpkginfo /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app/Info.plist0#
+
+CProcessPCH /var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch.gch Circuit_1_0_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321570118.769932
+e321570119.642469
+r1
+xProcessPCH
+x/var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch.gch
+xCircuit_1_0_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Circuit_1_0_Prefix.pch321570118#321570119#0(0"0(0#0#58"/Users/Wilson/Documents/Circuit_1.0/Circuit_1_0_Prefix.pch2564670096#1852"    cd /Users/Wilson/Documents/Circuit_1.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-generated-files.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-own-target-headers.hmap -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-all-target-headers.hmap -iquote /Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/Circuit_1.0-project-headers.hmap -F/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator -I/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/include -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources/i386 -I/Users/Wilson/Documents/Circuit_1.0/build/Circuit_1.0.build/Debug-iphonesimulator/Circuit_1.0.build/DerivedSources -c /Users/Wilson/Documents/Circuit_1.0/Circuit_1_0_Prefix.pch -o /var/folders/ar/ar-bl9CCFaSSpX1hSYO4rE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Circuit_1_0_Prefix-fjoniembezkeqzcimhpsdkeuilcl/Circuit_1_0_Prefix.pch.gch0#
+
+CTouch /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app
+s322083880.556729
+e322083880.560662
+r1
+xTouch
+x/Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app
+lSLF07#2@85"Touch /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app322083880#322083880#0(0"0(0#0#0"2450354832#276"    cd /Users/Wilson/Documents/Circuit_1.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Wilson/Documents/Circuit_1.0/build/Debug-iphonesimulator/Circuit_1.0.app0#
+
